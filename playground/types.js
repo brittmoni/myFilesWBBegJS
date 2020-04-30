@@ -29,6 +29,13 @@ const html = `
 document.body.innerHTML = html;
 */
 
+/*
 const age = 100;
 const name = 'britt';
+*/
 
+const person = {
+  first: 'britt',
+  last: 'franklin',
+  age: 27,
+};
