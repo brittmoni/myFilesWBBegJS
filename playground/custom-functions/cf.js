@@ -13,9 +13,11 @@ function doctorize(name) {
   return `Dr. ${name}`;
 }
 
-function yell(name) {
+function yell(name = 'silly goose') {
   return `HEY ${name.toUpperCase()}`;
 }
 
-console.log(yell(doctorize('britt')));
-console.log(doctorize(yell('britt')));
+// console.log(yell(doctorize('britt')));
+// console.log(doctorize(yell('britt')));
+
+// If you want a function to fall back to a default rate while supplying values to other parameters, you must use undefined for the variable that will fall back
