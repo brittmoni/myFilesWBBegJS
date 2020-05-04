@@ -32,3 +32,5 @@ document.body.innerHTML = html;
 const age = 100;
 const name = 'britt';
 
+const a = 10;
+const b = 20;
